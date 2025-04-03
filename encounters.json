@@ -1,4 +1,6 @@
 {
+
+  //LOCATIONS FOR ENOCUTNERS 
   "locations": [
     {
       "name": "Biblioplex",
@@ -9,6 +11,8 @@
       "description": "Lush, fractal gardens and stone pathways buzzing with numerical patterns."
     }
   ],
+
+  //MONSTERS
   "monsters": [
     {
       "name": "Inkling Swarm",
@@ -26,6 +30,8 @@
       "challenge": 4
     }
   ],
+
+  //NPCS
   "npcs": [
     {
       "name": "Zanther Bowen",
