@@ -7,12 +7,12 @@ async function generateEncounter() {
   const data = await response.json();
 
   // Pick random location and monster
+  
   const location = data.locations[Math.floor(Math.random() * data.locations.length)];
   const monster = data.monsters[Math.floor(Math.random() * data.monsters.length)];
 
-  // Filter NPCs by year and pick random ones
-  const npcsForYear = data.npcs.filter(npc => npc.year === year);
-  const shuffled = npcsForYear.sort(() => 0.5 - Math.random());
+  // Pick Random Npcs 
+  const shuffled = data.npcs.sort(() => 0.5 - Math.random());
   const selectedNPCs = shuffled.slice(0, npcCount);
 
   // Build the encounter HTML
