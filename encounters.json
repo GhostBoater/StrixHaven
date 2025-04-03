@@ -1,0 +1,49 @@
+{
+  "locations": [
+    {
+      "name": "Biblioplex",
+      "description": "A vast, magical library filled with floating books and whispering shelves."
+    },
+    {
+      "name": "Quandrix Campus",
+      "description": "Lush, fractal gardens and stone pathways buzzing with numerical patterns."
+    }
+  ],
+  "monsters": [
+    {
+      "name": "Inkling Swarm",
+      "description": "Living shadows summoned by rogue spellwork.",
+      "challenge": 1
+    },
+    {
+      "name": "Arcane Wraith",
+      "description": "A ghostly entity drawn to experimental magic gone wrong.",
+      "challenge": 2
+    },
+    {
+      "name": "Eldritch Archivist",
+      "description": "A powerful construct protecting forbidden knowledge.",
+      "challenge": 4
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Zanther Bowen",
+      "house": "Silverquill",
+      "year": 1,
+      "traits": "Charming, witty, but prone to showboating."
+    },
+    {
+      "name": "Quentillius Antiphiun",
+      "house": "Silverquill",
+      "year": 2,
+      "traits": "Dramatic and theatrical, always seeking attention."
+    },
+    {
+      "name": "Melwythorne",
+      "house": "Witherbloom",
+      "year": 3,
+      "traits": "A dryad with a calm demeanor and deep curiosity about life."
+    }
+  ]
+}
