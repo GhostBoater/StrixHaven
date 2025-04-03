@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Strixhaven Encounter Generator</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Strixhaven Encounter Generator</h1>
+
+  <label for="year">Academic Year:</label>
+  <select id="year">
+    <option value="1">Year 1</option>
+    <option value="2">Year 2</option>
+    <option value="3">Year 3</option>
+    <option value="4">Year 4</option>
+  </select>
+
+  <label for="npcCount">Number of NPCs:</label>
+  <input type="number" id="npcCount" min="1" max="5" value="2">
+
+  <button onclick="generateEncounter()">Generate Encounter</button>
+
+  <div id="result"></div>
+</body>
+</html>
